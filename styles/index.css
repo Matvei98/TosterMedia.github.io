@@ -1,6 +1,14 @@
 @media screen and (min-width:320px) and (max-width:768px) {
+	@font-face {
+		font-family: 'Gotham Pro';
+		src: url('/fonts/gothampro_bold.ttf') format('ttf'),
+			 url('/fonts/gothampro_italic.ttf') format('ttf');
+		font-weight: 700;
+		font-style: normal;
+	}
 	body {
 		margin: 0;
+		font-family: 'Gotham Pro', sans-serif;
 		overflow-x: hidden;
 	}
 
@@ -104,6 +112,7 @@
 	.old-price {
 		font-size: 18px;
 		color: white;
+		font-weight: 700;
 		text-decoration-line: line-through;
 		text-decoration-color: #E27500;
 		margin-top: 0;
@@ -121,6 +130,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		background-color: rgb(211, 211, 211);
 	}
 
 	.main_item {
@@ -134,19 +144,16 @@
 
 	.main_item p {
 		font-size: 13px;
-		font-family: Gotham Pro;
 		font-weight: 400;
 	}
 
 	.main_item span {
-		font-family: Gotham Pro;
 		font-weight: 400;
 		font-size: 13px;
 		color: #37D997;
 	}
 
 	.main_headline {
-		font-family: Gotham Pro;
 		font-weight: 700;
 		margin-top: 0;
 		font-size: 19px;
@@ -170,7 +177,7 @@
 
 	.description {
 		margin-top: 20px;
-		margin-right: 80px;
+		margin-right: 60px;
 		margin-bottom: 20px;
 	}
 
@@ -181,7 +188,6 @@
 	}
 
 	.description_item span {
-		font-family: Gotham Pro;
 		font-weight: 700;
 	}
 
@@ -203,20 +209,20 @@
 	align-items: center;
 }
 	.label {
-		font-family: Gotham Pro;
 		font-weight: 400;
 		font-size: 10px;
 		padding-bottom: 5px;
 	}
 
 	.selections_item {
+		background-color: white;
+		border: none;
 		display: flex;
 		width: 170px;
 		height: 50px;
 		border-radius: 15px;
 	}
 	.selections_option{
-		font-family: Gotham Pro;
 		font-weight: 700;
 		font-size: 21px;
 		text-align: center;
@@ -229,6 +235,7 @@
 		height: 50px;
 		background-color: #37D997;
 		border-radius: 15px;
+		border: none;
 		margin-bottom: 41px;
 	}
 	.button p {
