@@ -10,7 +10,7 @@
 	body {
 		margin: 0;
 		font-family: 'Gotham Pro', sans-serif;
-		overflow-x: hidden;
+		overflow-x: none;
 	}
 
 	.headline_header {
