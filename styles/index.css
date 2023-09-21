@@ -10,15 +10,18 @@
 	body {
 		margin: 0;
 		font-family: 'Gotham Pro', sans-serif;
-		overflow-x: none;
+		overflow-x: hidden;
 	}
 
 	.headline_header {
 		display: flex;
 		justify-content: center;
 		width: 390px;
+		background-color: #E27500;
 	}
-
+.headline_header h1 {
+	font-size: 13px;
+}
 	.section1_header {
 		display: flex;
 		width: 390px;
@@ -159,7 +162,7 @@
 
 	.main_headline {
 		font-weight: 700;
-		margin-top: 0;
+		margin-top: 5px;
 		font-size: 19px;
 		line-height: 19px;
 	}
